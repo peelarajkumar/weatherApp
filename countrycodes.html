@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="countrycode.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city">
+        <button id="fetchWeatherButton">Get Weather</button>
+        <div id="weather-info">
+            <p><strong>City:</strong> <span id="cityName"></span></p>
+            <p><strong>Minimum Temperature:</strong> <span id="mintemp"></span></p>
+            <p><strong>Maximum Temperature:</strong> <span id="maxtemp"></span></p>
+            <p><strong>Condition:</strong> <span id="condition"></span></p>
+            <p><strong>Summary Description:</strong> <span id="description"></span></p>
+        </div>
+    </div>
+    <script src="countrycode.js"></script>
+</body>
+</html>
